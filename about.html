@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>About Us</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Chewy&family=Sriracha&display=swap" rel="stylesheet">
+	</head>
+	<body class="sriracha-regular" >
+		<h1 align="center"><img src="../Group Final Project/img/Oct 23, Doc 1-modified.png" width="100px" height="100px" align="left">
+		Eventful Eats <img src="../Group Final Project/img/Oct 23, Doc 1-modified.png"  width="100px" height="100px" align="right"></h1>
+		<div class="navbar" id="myNavbar"  align="center">
+		  <a href="#" onclick="replaceLocationOne()">Home</a>
+		  <a href="#" class="active">About Us</a>
+		  <a href="#" onclick="replaceLocationTwo()">Services</a>
+		  <a href="#" onclick="replaceLocationThree()">Customer Testimonies</a>
+		  <a href="#" onclick="replaceLocationFour()">Gallery</a>
+		  <a href="#" onclick="replaceLocationFive()">Contact Us/Hire Us</a>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		  </a>
+		</div>
+		<h2>Meet the Team</h2>
+		<hr>
+		<img src="https://t4.ftcdn.net/jpg/06/41/88/25/360_F_641882588_QayqH5oM7zcnBBGRwK7TWsCJTM0shfKX.jpg" width="500px" height="350px" align="right">
+		<h3> Megan Chmiel </h3>
+		<p class="about">
+			Hi there! I’m Megan, a passionate and detail-oriented party planner with 10 years of experience creating unforgettable 
+			events. Whether you're planning an intimate gathering, a milestone celebration, or an all-out extravaganza, I’m here to 
+			bring your vision to life with creativity, precision, and a touch of magic.
+			
+			From the initial concept to the final farewell, I work closely with clients to ensure every detail exceeds expectations. 
+			I specialize in curating personalized experiences that reflect your unique style and personality. With a love for 
+			organization, design, and seamless execution, I’ll handle all the logistics, so you can focus on enjoying the moments 
+			that matter most.
+			
+			Let’s make your next event one to remember! 
+		</p>
+		<hr>
+		<img src="https://img.freepik.com/premium-photo/party-planner-coordinating-event-logistics-celebration-concept-event-coordination-venue-selection-catering-services-entertainment-booking-decoration-setup_918839-243224.jpg" width="500px" height="300px" align="right">
+		<h3> Johnathan Musard </h3>
+		<p class="about">
+			As an experienced event planner with years of industry expertise, I specialize in creating customized, high-impact events that exceed expectations. Whether it's a large-scale corporate function, a chic wedding, or an intimate gathering, I am dedicated to delivering seamless and extraordinary experiences. 
+			My approach is built on a foundation of creativity, precision, and effective communication, ensuring every detail is covered and every vision brought to life. I strive to make each event unique and unforgettable and thrive on turning my clients' visions into reality, creating moments that leave lasting impressions.
+		</p>
+		<hr>
+		<img src="https://www.rebeccachan.ca/wp-content/uploads/2017/01/artiese-rebecca-chan-styled-shoot-2481-1024x683.jpg" width="500px" height="300px" align="right">
+		<h3> Melanie Zumba </h3>
+		<p class="about">
+			I've been in the event planning industry for 7 years now. I strive to bring each and every one of my client's visions to life. I specialize in organizing seamless events that leave lasting impressions. From corporate gatherings and weddings to intimate celebrations, I enjoy every aspect of the planning process. My goal has always been to ensure each event is unique, personalized and unforgettable, making the planning process stress free and enjoyable!
+		</p>
+		<br>
+		<button onclick="goBack()" >Back</button>
+		<script>
+			function myFunction() {
+				var x = document.getElementById("myNavbar");
+				if (x.className === "navbar") {
+				x.className += " responsive";
+				} else {
+				x.className = "navbar";
+				}
+			}
+			
+			function goBack() {
+			  history.back();
+			}
+			
+			function replaceLocationOne() {
+				// Replace the current location
+				// with new location
+				let newloc = "home.html";
+				window.location.replace(newloc);
+			}
+			function replaceLocationTwo() {
+				// Replace the current location
+				// with new location
+				let newloc = "services.html";
+				window.location.replace(newloc);
+			}
+			function replaceLocationThree() {
+				// Replace the current location
+				// with new location
+				let newloc = "experiences.html";
+				window.location.replace(newloc);
+			}
+			function replaceLocationFour() {
+				// Replace the current location
+				// with new location
+				let newloc = "gallery.html";
+				window.location.replace(newloc);
+			}
+			function replaceLocationFive() {
+				// Replace the current location
+				// with new location
+				let newloc = "contact.html";
+				window.location.replace(newloc);
+			}
+		</script>
+	</body>
+</html>
+
+
+
+
+

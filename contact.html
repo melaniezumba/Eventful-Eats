@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact Us</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Chewy&family=Sriracha&display=swap" rel="stylesheet">
+	</head>
+	<body class="sriracha-regular">
+		<h1 align="center"><img src="../Group Final Project/img/Oct 23, Doc 1-modified.png" width="100px" height="100px" align="left">
+		Eventful Eats <img src="../Group Final Project/img/Oct 23, Doc 1-modified.png"  width="100px" height="100px" align="right"></h1>
+		<div class="navbar" id="myNavbar"  align="center">
+		  <a href="#" onclick="replaceLocationOne()">Home</a>
+		  <a href="#" onclick="replaceLocationTwo()">About Us</a>
+		  <a href="#" onclick="replaceLocationThree()">Services</a>
+		  <a href="#" onclick="replaceLocationFour()">Customer Testimonies</a>
+		  <a href="#" onclick="replaceLocationFive()">Gallery</a>
+		  <a href="#" class="active">Contact Us/Hire Us</a>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		  </a>
+		</div>
+		<h2 align="center"> Contact Information </h2>
+		<p align="Center"> Email: eventfuleats@gmail.com </p>
+		<p align="center"> Or Call (123)-456-7889! </p>
+		<h2 align="center"> Office Location </h2>
+		<p align="Center"> 123 Office Lane Newport KY 41071</p>
+		<h2 align="center"> Hours </h2>
+		<p align="Center"> <b> Monday - Thursday:</b> 9:00am to 10:00pm</p>
+		<p align="Center"> <b> Friday:</b> 12:00pm to 8:00pm </p>
+		<p align="Center"> <b> Saturday - Sunday:</b> 12:00pm to 10:00pm</p>
+		<p align="center"> <b> To Hire Us:</b> Fill out this information! <a href="customer.html"> Fill us out! </a></p> 
+		
+		<br>
+		<button onclick="goBack()" >Back</button>
+		<script>
+			function myFunction() {
+				var x = document.getElementById("myNavbar");
+				if (x.className === "navbar") {
+				x.className += " responsive";
+				} else {
+				x.className = "navbar";
+				}
+			}
+			
+			function goBack() {
+			  history.back();
+			}
+			
+			function replaceLocationOne() {
+				// Replace the current location
+				// with new location
+				let newloc = "home.html";
+				window.location.replace(newloc);
+			}
+			function replaceLocationTwo() {
+				// Replace the current location
+				// with new location
+				let newloc = "about.html";
+				window.location.replace(newloc);
+			}
+			function replaceLocationThree() {
+				// Replace the current location
+				// with new location
+				let newloc = "services.html";
+				window.location.replace(newloc);
+			}
+			function replaceLocationFour() {
+				// Replace the current location
+				// with new location
+				let newloc = "experiences.html";
+				window.location.replace(newloc);
+			}
+			function replaceLocationFive() {
+				// Replace the current location
+				// with new location
+				let newloc = "gallery.html";
+				window.location.replace(newloc);
+			}
+		</script>
+	</body>
+</html>
+
+
+
+
+

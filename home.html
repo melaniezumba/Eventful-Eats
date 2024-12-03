@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Chewy&family=Sriracha&display=swap" rel="stylesheet">
+	</head>
+	<body class="sriracha-regular">
+		<h1 align="center"><img src="../Group Final Project/img/Oct 23, Doc 1-modified.png" width="100px" height="100px" align="left">
+		Eventful Eats <img src="../Group Final Project/img/Oct 23, Doc 1-modified.png"  width="100px" height="100px" align="right"></h1>
+		<div class="navbar" id="myNavbar" align="center">
+		  <a href="#" class="active">Home</a>
+		  <a href="#" onclick="replaceLocationOne()">About Us</a>
+		  <a href="#" onclick="replaceLocationTwo()">Services</a>
+		  <a href="#" onclick="replaceLocationThree()">Customer Testimonies</a>
+		  <a href="#" onclick="replaceLocationFour()">Gallery</a>
+		  <a href="#" onclick="replaceLocationFive()">Contact Us/Hire Us</a>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		  </a>
+		</div>
+		<h2 align="center" style="font-size: 25px;">Welcome</h2>
+		<p class="home">
+			Welcome to Eventful Eats where our events are extravagant and the eats are exceptional. 
+			Here at Eventful Eats we believe you shouldn’t have to choose between having a good time and having good food. 
+			Why choose one or the other when you can have both? With a combined experience of over 30 years in the industry 
+			and 10,000 events, we can’t wait to make your next event exceptional and provide you a personalized assistance to 
+			create a stress free event! 
+		</p>
+		<img src="../Group Final Project/img/left party popper.png" width="350px" height="350px">
+		<img src="../Group Final Project/img/right party popper.png" width="350px" height="350px" align="right">
+		<br>
+		<button onclick="goBack()" >Back</button>
+		<script>
+			function myFunction() {
+				var x = document.getElementById("myNavbar");
+				if (x.className === "navbar") {
+				x.className += " responsive";
+				} else {
+				x.className = "navbar";
+				}
+			}
+			
+			function goBack() {
+			  history.back();
+			}
+			
+			function replaceLocationOne() {
+				// Replace the current location
+				// with new location
+				let newloc = "about.html";
+				window.location.replace(newloc);
+			}
+			function replaceLocationTwo() {
+				// Replace the current location
+				// with new location
+				let newloc = "services.html";
+				window.location.replace(newloc);
+			}
+			function replaceLocationThree() {
+				// Replace the current location
+				// with new location
+				let newloc = "experiences.html";
+				window.location.replace(newloc);
+			}
+			function replaceLocationFour() {
+				// Replace the current location
+				// with new location
+				let newloc = "gallery.html";
+				window.location.replace(newloc);
+			}
+			function replaceLocationFive() {
+				// Replace the current location
+				// with new location
+				let newloc = "contact.html";
+				window.location.replace(newloc);
+			}
+		</script>
+	</body>
+</html>
+
+
+
+
+
+
+

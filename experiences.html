@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Experiences & Success Stories</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Chewy&family=Sriracha&display=swap" rel="stylesheet">
+	</head>
+	<body class="sriracha-regular" style="font-size:18px;">
+		<h1 align="center"><img src="../Group Final Project/img/Oct 23, Doc 1-modified.png" width="100px" height="100px" align="left">
+		Eventful Eats <img src="../Group Final Project/img/Oct 23, Doc 1-modified.png"  width="100px" height="100px" align="right"></h1>
+		<div class="navbar" id="myNavbar"  align="center">
+		  <a href="#" onclick="replaceLocationOne()">Home</a>
+		  <a href="#" onclick="replaceLocationTwo()">About Us</a>
+		  <a href="#" onclick="replaceLocationThree()">Services</a>
+		  <a href="#" class="active">Customer Testimonies</a>
+		  <a href="#" onclick="replaceLocationFour()">Gallery</a>
+		  <a href="#" onclick="replaceLocationFive()">Contact Us/Hire Us</a>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		  </a>
+		</div>
+		<h2 align="center"> Work Event in Greater Cincinnati </h2>
+		<hr>
+			<a target="_blank" href="https://cdn.prod.website-files.com/637391ec846652083583cb2d/637cce2dccd18647a54026eb_Headshot_Black_Clothes.jpg">
+			  <img src="https://cdn.prod.website-files.com/637391ec846652083583cb2d/637cce2dccd18647a54026eb_Headshot_Black_Clothes.jpg" alt="Avatar" style="width: 500px;" align="center">
+			</a>
+			<div class="parari" style="font-size: 25px;"> "I had the pleasure of working with Eventful Eats and they were awesome! The professionalism and attention to detail was impeccable!
+				Upon arrival to the event they were constantly checking in on us if we needed anything. I would recommend them for your planning needs any day!" -Michelle R. </div>
+			</div>
+		<hr>
+		<br>
+		<h2 align="center"> Sweet 16th Birthday Party in NKY </h2>
+		<hr>
+			<a target="_blank" href="https://deluxebanquethall.com/wp-content/uploads/2015/03/De-Luxe-Sweet-16-01-e1581661095598.jpg">
+			  <img src="https://deluxebanquethall.com/wp-content/uploads/2015/03/De-Luxe-Sweet-16-01-e1581661095598.jpg" alt="Avatar" style="width: 500px;" align="center">
+			</a>
+			<div class="parari" style="font-size: 25px;"> "Eventful Eats does it all. I reached out to them months ago to help me plan my daughters 16th birthday party. My wife and I wanted to throw our oldest daughter
+				a party she would never forget and the Eventful Eats team did an extrodinary job providing the catering, DJ venue and so much more. They do a wonderful job paying attention to detail and are super east to work with!" -Robert B. </div>
+			</div>
+		<hr>
+		<br>
+		<h2 align="center"> Wedding in Cincinnati </h2>
+		<hr>
+			<a target="_blank" href="https://chicagoweddingphotographer.com/wp-content/uploads/sites/12448/2021/06/A-Wedding-At-The-Swan-Barn-Door-Barn-Lauren-and-Derek-72.jpg">
+			  <img src="https://chicagoweddingphotographer.com/wp-content/uploads/sites/12448/2021/06/A-Wedding-At-The-Swan-Barn-Door-Barn-Lauren-and-Derek-72.jpg" "alt="Avatar" style="width:500px;" align="center">
+			</a>
+			<div class="parari" style="font-size: 25px;"> "I couldn't recommend Eventful Eats enough. Planning for our wedding ourselves was not easy at all so hiring them made our wedding planning experience super easy and fun. From our first consultation they listened to our vision
+			and offered great ideas. Communication was clear and it was easy to get ahold of them. Their experience and dedication were evident at every step. If you want a stress free beautiful celebration, I would highly recommend." - Ashley S.
+			</div>
+		<hr>
+		<br>
+		<h2 align="center"> Catering Service </h2>
+		<hr>
+			<a target="_blank" href="https://www.threetomatoes.com/wp-content/uploads/2023/07/holiday-party-catering.jpg">
+			  <img src="https://www.threetomatoes.com/wp-content/uploads/2023/07/holiday-party-catering.jpg" "alt="Avatar" style="width:500px;" align="center">
+			</a>
+			<div class="parari" style="font-size: 25px;"> "We are beyond impressed with Eventful Eats and their exceptional service for our company's recent celebration. The food catering was a huge highlight. Every dish was delicious, fresh and flavorable leaving everyone impressed. They do a great job paying close attention
+			to detail and making everything look luxurious. We couldn't have asked for a better partner for this event, would highly recommend!!" - TQL Team		
+			</div>
+		<hr>
+		<br>
+		<button onclick="goBack()" >Back</button>
+		<script>
+			function myFunction() {
+				var x = document.getElementById("myNavbar");
+				if (x.className === "navbar") {
+				x.className += " responsive";
+				} else {
+				x.className = "navbar";
+				}
+			}
+			
+			function goBack() {
+			  history.back();
+			}
+			
+			function replaceLocationOne() {
+				// Replace the current location
+				// with new location
+				let newloc = "home.html";
+				window.location.replace(newloc);
+			}
+			function replaceLocationTwo() {
+				// Replace the current location
+				// with new location
+				let newloc = "about.html";
+				window.location.replace(newloc);
+			}
+			function replaceLocationThree() {
+				// Replace the current location
+				// with new location
+				let newloc = "services.html";
+				window.location.replace(newloc);
+			}
+			function replaceLocationFour() {
+				// Replace the current location
+				// with new location
+				let newloc = "gallery.html";
+				window.location.replace(newloc);
+			}
+			function replaceLocationFive() {
+				// Replace the current location
+				// with new location
+				let newloc = "contact.html";
+				window.location.replace(newloc);
+			}
+		</script>
+	</body>
+</html>
+
+
+
+

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Customize Your Party</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Chewy&family=Sriracha&display=swap" rel="stylesheet">
+	</head>
+	<body class="sriracha-regular" class="about">
+		<h1 align="center"><img src="../Group Final Project/img/Oct 23, Doc 1-modified.png" width="100px" height="100px" align="left">
+		Eventful Eats <img src="../Group Final Project/img/Oct 23, Doc 1-modified.png"  width="100px" height="100px" align="right"></h1>
+		<br>
+		<form name="Party" method="POST" action="payment.html">
+			<fieldset class="form">
+				<legend> <b> Theme Choices </b> </legend>
+				<label> <b> Age Group: </b> </label>
+					<input type="radio" name="tengine" ID="tengine"> Child
+					<input type="radio" name="tengine" ID="tengine"> Teenager
+					<input type="radio" name="tengine" ID="engine"> Adult					
+				<br><br>
+				<hr color="black" size="3"/>
+				<label> <b> Type: </b> </label>
+					<select>
+						<option> Wedding </option>
+						<option> Birthday Party </option>
+						<option> Retirement </option>
+						<option> School Party </option>
+						<option> Sweet 16 </option>
+						<option> Barmitzvhah </option>
+						<option> Batmitzvah </option>
+						<option> 21st Birthday </option>
+						<option> Quinceanera </option>
+						<option> Cocktail Receptions </option>
+						<option> Holiday Parties </option>
+						<option> Networking Events </option>
+					</select>
+				<br><br>					
+				<hr color="black" size="3"/>
+				<script src="script.js"></script>
+				<label><b> Budget (between $2,000 and $100,000):</b> </label>
+					<div class="slider-container">
+					<input type="range" id="rangeSlider" min="2000" max="100000" value="2000">
+					<div id="sliderValue">100,000</div>
+				</div>
+				<br>
+				<hr color="black" size="3"/>	
+				<label> <b> Desired Color 1: </b> </label>
+					<input type="color" id="favcolor" name="favcolor" value="#ff0000"><br>
+					<label> <b> Desired Color 2: </b> </label>
+					<input type="color" id="favcolor" name="favcolor" value="#ff0000"><br>
+					<label> <b> Desired Color 3: </b> </label>
+					<input type="color" id="favcolor" name="favcolor" value="#ff0000">	
+				<br>
+			</fieldset>
+			<br><br>
+			<fieldset class="form">
+				<legend> <b> Specifics </b> </legend>
+				<label> <b> Food Selection: </b> </label>
+				<select>
+					<option> Italian </option>
+					<option> Chinese </option>
+					<option> Pizza </option>
+					<option> Burgers </option>
+					<option> Finger Food </option>
+					<option> Chicken </option>
+					<option> Sea Food </option>
+					<option> Steak </option>
+					<option> Mexican </option>
+				</select>
+				<br><br>
+				<label><b>Something else?</b></label>
+				<br>
+				<textarea></textarea><br><br>
+				<label style="font-size: 20px;"><u><b>Pontential Themes</b></u></label>
+					<p><b> General Themes</b> </p>
+					<input type="checkbox"> Masquerade Ball<br>
+					<input type="checkbox"> Tropical Luau<br>
+					<input type="checkbox"> Roaring Twenties (Great Gatsby)<br>
+					<input type="checkbox"> Hollywood Glamour<br>
+					<input type="checkbox"> Costume Party(Superheroes, Fairy Tales, or TV Characters.)<br>
+					<input type="checkbox"> Casino Night<br>
+					<input type="checkbox"> Under the Stars (Outdoor or Stargazing Party)<br>
+					<input type="checkbox"> Superhero Showdown (Guests dress up as their favorite superhero (or villain!) and enjoy themed games.)<br>
+					<input type="checkbox"> Decades Party<br>
+					<input type="checkbox"> Glow-in-the-Dark Party<br>
+					<p><b> Seasonal & Holiday Themes </b></p>
+					<input type="checkbox"> Winter Wonderland <br>
+					<input type="checkbox"> Mardi Gras Madness <br>
+					<input type="checkbox"> Halloween Spooktacular <br>
+					<input type="checkbox"> Christmas in July <br>
+					<input type="checkbox"> Easter Eggstravaganza <br>
+					<input type="checkbox"> Valentine’s Day Bash <br>
+					<input type="checkbox"> New Year’s Eve Countdown <br>
+					<input type="checkbox"> Fourth of July BBQ <br>
+					<input type="checkbox"> Cinco de Mayo Fiesta <br>
+					<input type="checkbox"> St. Patrick’s Day Shamrock Shindig <br>
+					<p><b> Themed Parties Based on Popular Culture </b></p>
+					<input type="checkbox"> Stranger Things Adventure<br>
+					<input type="checkbox"> Harry Potter Hogwarts Feast <br>
+					<input type="checkbox"> Game of Thrones (Winter Is Here)<br>
+					<input type="checkbox"> Pirate Party<br>
+					<input type="checkbox"> Outer Space Odyssey <br>
+					<input type="checkbox"> Alice in Wonderland Tea Party  <br>
+					<input type="checkbox"> Disney Princess Ball <br>
+					<input type="checkbox"> The Great Outdoors (Camping Party) <br>
+					<input type="checkbox"> The Walking Dead Survival Party <br>
+					<input type="checkbox"> Narcos or Mexican Cartel Party
+					<br><br>
+				<hr color="black" size="3"/>				
+				<p> <b> Meeting Details</b> </p>
+				<p> <b> Tell us about the party person! </b> </p>
+				<label>Name:</label>
+					<input type="text"> <br><br>
+				<label>What are they like? </label><br>
+					<textarea rows="5" cols="40"></textarea>
+				<hr color="black" size="3"/>
+				<label><b> Available Days & Times to Meet and Discuss</b> </label><br>
+					<input type="checkbox"> Monday: 10am - 8pm <br>
+					<input type="checkbox"> Tuesday: 10am - 8pm <br>
+					<input type="checkbox"> Wednesday: 10am - 8pm <br>
+					<input type="checkbox"> Thurday: 10am - 8pm <br>
+					<input type="checkbox"> Friday: 10am - 8pm <br>
+					<input type="checkbox"> Saturday: 10am - 3pm <br>
+					<input type="checkbox"> Sunday: 10am - 3pm
+					<br><br>
+				<label><b> Comments:</b> </label>
+					<input type="textarea" placeholder="Enter Comments" > <br>			
+				<hr color="black" size="3"/>		
+				<br>
+				<input type="submit"/>		
+			</fieldset>
+		</form>
+		<br>
+		<button onclick="goBack()">Back</button>
+		<script>
+		
+			function goBack() {
+			  history.back();
+			}
+			const rangeSlider = document.getElementById('rangeSlider');
+			const sliderValue = document.getElementById('sliderValue');
+
+			// Update the displayed value when the slider is moved
+			rangeSlider.addEventListener('input', function() {
+				sliderValue.textContent = rangeSlider.value;
+			});
+
+			// Initialize the displayed value on page load
+			sliderValue.textContent = rangeSlider.value;
+		</script>
+	</body>
+</html>
+
+

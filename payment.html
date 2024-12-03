@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Payment Information</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Chewy&family=Sriracha&display=swap" rel="stylesheet">
+	</head>
+	<body class="sriracha-regular" class="about">
+		<h1 align="center"><img src="../Group Final Project/img/Oct 23, Doc 1-modified.png" width="100px" height="100px" align="left">
+		Eventful Eats <img src="../Group Final Project/img/Oct 23, Doc 1-modified.png"  width="100px" height="100px" align="right"></h1>
+		<form name="Party" method="POST" action="thanks.html">
+			<fieldset class="form">
+			<legend>Payment</legend>
+				<label>Network:</label>
+					<select>
+						<option>VISA</option>
+						<option>MasterCard</option>
+						<option>Discover</option>
+						<option>American Express</option>
+						<option>Maestro</option>
+					</select>
+				<br><br>
+				<label>Cardholder Name:</label>
+					<input type="text" />
+					<br><br>
+				<label>Credit Card Number:</label>
+					<input type="text" />
+					<br><br>
+				<label>Expiration Year:</label>
+					<input type="text" />
+					<br><br>
+				<label>Expiration Month:</label>
+					<input type="text" />
+					<br><br>
+				<label>Security Code:</label>
+					<input type="text" />
+					<br><br>
+				<label>ZIP code:</label>
+					<input type="text" />
+					<br><br>
+				<input type="submit" />
+			</fieldset>
+		</form>
+		<br>
+		<button onclick="goBack()">Back</button>
+		<script>
+		
+			function goBack() {
+			  history.back();
+			}
+			
+		</script>
+	</body>
+</html>
+
